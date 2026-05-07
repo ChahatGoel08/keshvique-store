@@ -20,29 +20,28 @@ export default function ProductPage() {
       name: 'Keshvique Hair Growth & Anti-Hair Fall Oil',
 
       description:
-        'Awaken Your Roots. Reclaim Your Crown.
-        'Rooted in centuries of Ayurvedic wisdom, the Keshvique Hair Growth &amp; Anti-Hair Fall Oil is a luxurious elixir crafted to strengthen hair from root to tip. Each drop is a ritual — a promise of thicker, fuller, and more resilient hair.'
-'✦ Key Ingredients
-'Bhringraj — The 'King of Herbs' for hair, known to stimulate follicles and reduce hair fall
-'Brahmi — Nourishes the scalp and fortifies hair roots
-'Amla (Indian Gooseberry) — Rich in Vitamin C, promotes growth and prevents premature greying
-'Castor Oil — Deeply conditions and boosts hair density
-'Sesame Base Oil — Penetrates deep into the scalp for lasting nourishment
+        'Awaken Your Roots. Reclaim Your Crown. Rooted in centuries of Ayurvedic wisdom, the Keshvique Hair Growth &amp; Anti-Hair Fall Oil is a luxurious elixir crafted to strengthen hair from root to tip. Each drop is a ritual — a promise of thicker, fuller, and more resilient hair.'
+'✦ Key Ingredients'
+'Bhringraj — The King of Herbs for hair, known to stimulate follicles and reduce hair fall'
+'Brahmi — Nourishes the scalp and fortifies hair roots'
+'Amla (Indian Gooseberry) — Rich in Vitamin C, promotes growth and prevents premature greying'
+'Castor Oil — Deeply conditions and boosts hair density'
+'Sesame Base Oil — Penetrates deep into the scalp for lasting nourishment'
 
-  '✦ Benefits
-'Visibly reduces hair fall within weeks of regular use
-'Stimulates dormant hair follicles for new growth
-'Strengthens hair shaft to prevent breakage
-'Nourishes and revitalises a dry, stressed scalp
-'Leaves hair feeling silky, voluminous, and healthy
+  '✦ Benefits'
+'Visibly reduces hair fall within weeks of regular use'
+'Stimulates dormant hair follicles for new growth'
+'Strengthens hair shaft to prevent breakage'
+'Nourishes and revitalises a dry, stressed scalp'
+'Leaves hair feeling silky, voluminous, and healthy'
 
   '✦ How to Use
-'Warm a few drops between your palms
-'Gently massage into the scalp using circular motions for 5–10 minutes
-'Apply through the lengths of your hair
-'Leave on for a minimum of 1 hour, or overnight for deeper nourishment
-'Wash off with a mild, sulphate-free shampoo
-'Use 2–3 times per week for best results
+'Warm a few drops between your palms'
+'Gently massage into the scalp using circular motions for 5–10 minutes'
+'Apply through the lengths of your hair'
+'Leave on for a minimum of 1 hour, or overnight for deeper nourishment'
+'Wash off with a mild, sulphate-free shampoo'
+'Use 2–3 times per week for best results'
 
 'Pure. Potent. Ayurvedic. — Keshvique',
 
