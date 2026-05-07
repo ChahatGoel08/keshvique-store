@@ -1,24 +1,55 @@
+'use client';
+
+import Link from 'next/link';
+
+import { useCart } from '@/context/CartContext';
+
 export default function Bundles() {
+
+  const { addToCart } = useCart();
+
   const bundles = [
     {
-      title: "Hair Growth Combo",
-      image: "/images/bundle1.png",
-      price: "₹999",
-      oldPrice: "₹1999",
+      id: 'hair-growth-bundle',
+
+      name: 'Hair Growth Bundle',
+
+      image:
+        '/images/bundles/bundle-hair-growth-main.webp',
+
+      price: '₹999',
+
+      description:
+        'Hair Growth Oil + Scalp Detox Ritual',
     },
+
     {
-      title: "Luxury Shine Ritual",
-      image: "/images/bundle2.png",
-      price: "₹1599",
-      oldPrice: "₹2999",
+      id: 'complete-hair-ritual',
+
+      name: 'Complete Hair Ritual',
+
+      image:
+        '/images/bundles/bundle-complete-ritual-main.webp',
+
+      price: '₹1599',
+
+      description:
+        'Complete Ayurvedic luxury haircare routine',
     },
+
     {
-      title: "Ultimate Hair Combo",
-      image: "/images/bundle3.png",
-      price: "₹1999",
-      oldPrice: "₹3999",
+      id: 'scalp-care-bundle',
+
+      name: 'Scalp Care Bundle',
+
+      image:
+        '/images/bundles/bundle-scalp-care-main.webp',
+
+      price: '₹1799',
+
+      description:
+        'Deep scalp nourishment & detox',
     },
-    
   ];
 
   return (
@@ -26,56 +57,91 @@ export default function Bundles() {
 
       <div className="max-w-7xl mx-auto">
 
-        <div className="text-center mb-16">
+        {/* Heading */}
+        <div className="text-center mb-20">
 
           <p className="uppercase tracking-[0.3em] text-[#d4af37] mb-4">
-            Bundle Offers
+            Luxury Bundles
           </p>
 
           <h2 className="text-5xl font-light text-white">
-            Luxury Hair Ritual Bundles
+            Curated Hair Rituals
           </h2>
 
         </div>
 
-        <div className="grid md:grid-cols-2 gap-10">
+        {/* Grid */}
+        <div className="grid md:grid-cols-3 gap-10">
 
-          {bundles.map((bundle, index) => (
+          {bundles.map((bundle) => (
+
             <div
-              key={index}
-              className="bg-[#13271f] rounded-[2rem] overflow-hidden border border-[#d4af3720] hover:-translate-y-3 transition duration-300"
+              key={bundle.id}
+              className="bg-[#13271f] rounded-[2rem] overflow-hidden border border-[#d4af3720]"
             >
 
-              <img
-                src={bundle.image}
-                className="w-full h-[500px] object-cover"
-              />
+              {/* Clickable Image */}
+              <Link
+                href={`/bundle/${bundle.id}`}
+              >
 
-              <div className="p-8 text-center">
+                <img
+                  src={bundle.image}
+                  className="w-full h-[420px] object-cover hover:scale-105 transition duration-700"
+                />
+
+              </Link>
+
+              {/* Content */}
+              <div className="p-8">
 
                 <h3 className="text-3xl text-[#f3deb0] mb-4">
-                  {bundle.title}
+                  {bundle.name}
                 </h3>
 
-                <div className="flex justify-center items-center gap-4 mb-6">
+                <p className="text-gray-400 mb-6">
+                  {bundle.description}
+                </p>
 
-                  <span className="text-3xl text-[#d4af37] font-bold">
-                    {bundle.price}
-                  </span>
+                <p className="text-[#d4af37] text-3xl mb-8">
+                  {bundle.price}
+                </p>
 
-                  <span className="text-gray-500 line-through text-xl">
-                    {bundle.oldPrice}
-                  </span>
+                {/* Buttons */}
+                <div className="flex flex-col gap-4">
+
+                  {/* Add To Cart */}
+                  <button
+                    onClick={() =>
+                      addToCart({
+                        name: bundle.name,
+                        image: bundle.image,
+                        price: bundle.price,
+                      })
+                    }
+                    className="bg-[#d4af37] text-black py-4 rounded-full font-semibold hover:scale-105 transition"
+                  >
+
+                    Add To Cart
+
+                  </button>
+
+                  {/* View Bundle */}
+                  <Link
+                    href={`/bundle/${bundle.id}`}
+                    className="border border-[#d4af3720] text-center py-4 rounded-full hover:border-[#d4af37] transition"
+                  >
+
+                    View Bundle
+
+                  </Link>
 
                 </div>
-
-                <button className="bg-[#d4af37] text-black px-10 py-4 rounded-full font-semibold hover:scale-105 transition">
-                  Grab Bundle
-                </button>
 
               </div>
 
             </div>
+
           ))}
 
         </div>
