@@ -25,7 +25,7 @@ export default function Products() {
 
       image: '/images/product1.png',
 
-      price: 'From ₹799',
+      price: 'From ₹399',
 
       concern: 'Hair Growth',
     },
@@ -37,7 +37,7 @@ export default function Products() {
 
       image: '/images/product2.png',
 
-      price: 'From ₹899',
+      price: 'From ₹399',
 
       concern: 'Scalp Care',
     },
@@ -49,7 +49,7 @@ export default function Products() {
 
       image: '/images/product3.png',
 
-      price: 'From ₹999',
+      price: 'From ₹499',
 
       concern: 'Hair Shine',
     },
