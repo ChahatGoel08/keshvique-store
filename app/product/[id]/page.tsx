@@ -62,7 +62,7 @@ export default function ProductPage() {
     {
       id: 'scalp-detox-oil',
 
-      name: 'Scalp Detox Oil',
+      name: 'Anti Dandruff and Scalp Detox Oil',
 
       description:
         'Purifies scalp buildup and restores healthy scalp balance naturally.',
@@ -107,7 +107,7 @@ export default function ProductPage() {
     {
       id: 'shine-hair-oil',
 
-      name: 'Shine Hair Oil',
+      name: 'Nourishing and Shine Hair Oil',
 
       description:
         'Intense nourishment and luxurious shine for silky smooth hair.',
