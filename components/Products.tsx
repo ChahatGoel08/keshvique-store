@@ -105,7 +105,7 @@ export default function Products() {
           <div className="flex flex-wrap justify-center gap-4">
 
             {[
-              'all',
+              'All',
               'Hair Growth',
               'Scalp Care',
               'Hair Shine',
