@@ -32,7 +32,7 @@ export default function ProductPage() {
         {
           size: '100 ML',
 
-          price: '₹799',
+          price: '₹399',
 
           stock: 12,
 
@@ -46,7 +46,7 @@ export default function ProductPage() {
         {
           size: '200 ML',
 
-          price: '₹1399',
+          price: '₹699',
 
           stock: 4,
 
@@ -77,7 +77,7 @@ export default function ProductPage() {
         {
           size: '100 ML',
 
-          price: '₹899',
+          price: '₹399',
 
           stock: 10,
 
@@ -91,7 +91,7 @@ export default function ProductPage() {
         {
           size: '200 ML',
 
-          price: '₹1599',
+          price: '₹699',
 
           stock: 2,
 
@@ -122,7 +122,7 @@ export default function ProductPage() {
         {
           size: '100 ML',
 
-          price: '₹999',
+          price: '₹499',
 
           stock: 8,
 
@@ -136,7 +136,7 @@ export default function ProductPage() {
         {
           size: '200 ML',
 
-          price: '₹1799',
+          price: '₹899',
 
           stock: 0,
 
