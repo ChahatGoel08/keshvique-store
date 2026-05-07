@@ -35,7 +35,7 @@ export default function ProductPage() {
 'Nourishes and revitalises a dry, stressed scalp'
 'Leaves hair feeling silky, voluminous, and healthy'
 
-  '✦ How to Use
+  '✦ How to Use'
 'Warm a few drops between your palms'
 'Gently massage into the scalp using circular motions for 5–10 minutes'
 'Apply through the lengths of your hair'
