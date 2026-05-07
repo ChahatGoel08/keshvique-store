@@ -21,7 +21,7 @@ export default function Products() {
     {
       id: 'hair-growth-oil',
 
-      name: 'Hair Growth Oil',
+      name: 'Hair Growth and Anti Hair Fall Oil',
 
       image: '/images/product1.png',
 
@@ -33,7 +33,7 @@ export default function Products() {
     {
       id: 'scalp-detox-oil',
 
-      name: 'Scalp Detox Oil',
+      name: ' Anti Dandruff and Scalp Detox Oil',
 
       image: '/images/product2.png',
 
@@ -45,7 +45,7 @@ export default function Products() {
     {
       id: 'shine-hair-oil',
 
-      name: 'Shine Hair Oil',
+      name: 'Nourishing and Shine Hair Oil',
 
       image: '/images/product3.png',
 
@@ -105,7 +105,7 @@ export default function Products() {
           <div className="flex flex-wrap justify-center gap-4">
 
             {[
-              'all',
+              'All',
               'Hair Growth',
               'Scalp Care',
               'Hair Shine',
