@@ -17,7 +17,7 @@ export default function ProductPage() {
     {
       id: 'hair-growth-oil',
 
-      name: 'Hair Growth Oil',
+      name: 'Hair Growth & Anti-Hair Fall Oil',
 
       description:
         'An Ayurvedic formulation crafted to reduce hair fall and deeply nourish hair roots.',
@@ -32,7 +32,7 @@ export default function ProductPage() {
         {
           size: '100 ML',
 
-          price: '₹799',
+          price: '₹399',
 
           stock: 12,
 
@@ -46,7 +46,7 @@ export default function ProductPage() {
         {
           size: '200 ML',
 
-          price: '₹1399',
+          price: '₹699',
 
           stock: 4,
 
@@ -62,7 +62,7 @@ export default function ProductPage() {
     {
       id: 'scalp-detox-oil',
 
-      name: 'Scalp Detox Oil',
+      name: 'Anti Dandruff and Scalp Detox Oil',
 
       description:
         'Purifies scalp buildup and restores healthy scalp balance naturally.',
@@ -77,7 +77,7 @@ export default function ProductPage() {
         {
           size: '100 ML',
 
-          price: '₹899',
+          price: '₹399',
 
           stock: 10,
 
@@ -91,7 +91,7 @@ export default function ProductPage() {
         {
           size: '200 ML',
 
-          price: '₹1599',
+          price: '₹699',
 
           stock: 2,
 
@@ -107,7 +107,7 @@ export default function ProductPage() {
     {
       id: 'shine-hair-oil',
 
-      name: 'Shine Hair Oil',
+      name: 'Nourishing and Shine Hair Oil',
 
       description:
         'Intense nourishment and luxurious shine for silky smooth hair.',
@@ -122,7 +122,7 @@ export default function ProductPage() {
         {
           size: '100 ML',
 
-          price: '₹999',
+          price: '₹499',
 
           stock: 8,
 
@@ -136,7 +136,7 @@ export default function ProductPage() {
         {
           size: '200 ML',
 
-          price: '₹1799',
+          price: '₹899',
 
           stock: 0,
 

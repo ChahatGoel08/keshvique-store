@@ -21,11 +21,11 @@ export default function Products() {
     {
       id: 'hair-growth-oil',
 
-      name: 'Hair Growth Oil',
+      name: 'Hair Growth and Anti Hair Fall Oil',
 
       image: '/images/product1.png',
 
-      price: 'From ₹799',
+      price: 'From ₹399',
 
       concern: 'Hair Growth',
     },
@@ -33,11 +33,11 @@ export default function Products() {
     {
       id: 'scalp-detox-oil',
 
-      name: 'Scalp Detox Oil',
+      name: ' Anti Dandruff and Scalp Detox Oil',
 
       image: '/images/product2.png',
 
-      price: 'From ₹899',
+      price: 'From ₹399',
 
       concern: 'Scalp Care',
     },
@@ -45,11 +45,11 @@ export default function Products() {
     {
       id: 'shine-hair-oil',
 
-      name: 'Shine Hair Oil',
+      name: 'Nourishing and Shine Hair Oil',
 
       image: '/images/product3.png',
 
-      price: 'From ₹999',
+      price: 'From ₹499',
 
       concern: 'Hair Shine',
     },
