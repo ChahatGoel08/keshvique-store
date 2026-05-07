@@ -1,76 +1,129 @@
+'use client';
+
+import Link from 'next/link';
+
 export default function Footer() {
+
   return (
-    <footer className="bg-[#06110d] border-t border-[#d4af3720] py-20 px-6">
+    <footer className="bg-[#081510] border-t border-[#d4af3720] pt-24 pb-10 px-6">
 
-      <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-12">
+      <div className="max-w-7xl mx-auto">
 
-        {/* Brand */}
-        <div>
+        {/* Top */}
+        <div className="grid md:grid-cols-4 gap-12 mb-20">
 
-          <img
-            src="/images/logo.png"
-            alt="Keshvique"
-            className="h-16 mb-6"
-          />
+          {/* Brand */}
+          <div>
 
-          <p className="text-gray-400 leading-relaxed">
-            Luxury Ayurvedic haircare rituals crafted with
-            botanical ingredients for healthier and shinier hair.
+            <h2 className="text-3xl text-[#f3deb0] mb-6">
+              Keshvique
+            </h2>
+
+            <p className="text-gray-400 leading-relaxed">
+              Luxury Ayurvedic haircare rituals crafted for healthier,
+              stronger and shinier hair.
+            </p>
+
+          </div>
+
+          {/* Shop */}
+          <div>
+
+            <h3 className="text-xl text-[#d4af37] mb-6">
+              Shop
+            </h3>
+
+            <div className="flex flex-col gap-4 text-gray-400">
+
+              <Link href="/">
+                Products
+              </Link>
+
+              <Link href="/">
+                Bundles
+              </Link>
+
+              <Link href="/wishlist">
+                Wishlist
+              </Link>
+
+            </div>
+
+          </div>
+
+          {/* Policies */}
+          <div>
+
+            <h3 className="text-xl text-[#d4af37] mb-6">
+              Policies
+            </h3>
+
+            <div className="flex flex-col gap-4 text-gray-400">
+
+              <Link href="/">
+                Shipping Policy
+              </Link>
+
+              <Link href="/">
+                Refund Policy
+              </Link>
+
+              <Link href="/">
+                Privacy Policy
+              </Link>
+
+            </div>
+
+          </div>
+
+          {/* Contact */}
+          <div>
+
+            <h3 className="text-xl text-[#d4af37] mb-6">
+              Contact
+            </h3>
+
+            <div className="flex flex-col gap-4 text-gray-400">
+
+              <a href="mailto:chahatgoel2002@gmail.com">
+                chahatgoel2002@gmail.com
+              </a>
+
+              <a href="tel:+919599754202">
+                +91 9599754202
+              </a>
+
+              <a
+                href="https://instagram.com"
+                target="_blank"
+              >
+                Instagram
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        {/* Bottom */}
+        <div className="border-t border-[#d4af3720] pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+
+          <p className="text-gray-500 text-sm">
+
+            © 2026 Keshvique.
+            All rights reserved.
+
+          </p>
+
+          <p className="text-gray-500 text-sm">
+
+            Crafted with luxury & Ayurveda.
+
           </p>
 
         </div>
 
-        {/* Shop */}
-        <div>
-
-          <h3 className="text-[#d4af37] text-xl mb-6">
-            Shop
-          </h3>
-
-          <ul className="space-y-4 text-gray-400">
-            <li><a href="#">Hair Growth Oil</a></li>
-            <li><a href="#">Scalp Detox Oil</a></li>
-            <li><a href="#">Bundle Offers</a></li>
-            <li><a href="#">Luxury Rituals</a></li>
-          </ul>
-
-        </div>
-
-        {/* Support */}
-        <div>
-
-          <h3 className="text-[#d4af37] text-xl mb-6">
-            Support
-          </h3>
-
-          <ul className="space-y-4 text-gray-400">
-            <li><a href="#">Refund Policy</a></li>
-            <li><a href="#">Shipping Policy</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms & Conditions</a></li>
-          </ul>
-
-        </div>
-
-        {/* Contact */}
-        <div>
-
-          <h3 className="text-[#d4af37] text-xl mb-6">
-            Contact
-          </h3>
-
-          <ul className="space-y-4 text-gray-400">
-            <li>79 Alipur Delhi - 110036</li>
-            <li>+91 9599754202</li>
-            <li>hello@keshvique.com</li>
-          </ul>
-
-        </div>
-
-      </div>
-
-      <div className="border-t border-[#d4af3720] mt-16 pt-8 text-center text-gray-500">
-        © 2026 KESHVIQUE. All rights reserved.
       </div>
 
     </footer>

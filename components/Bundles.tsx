@@ -17,7 +17,7 @@ export default function Bundles() {
       image:
         '/images/bundles/bundle-hair-growth-main.webp',
 
-      price: '₹999',
+      price: '₹1999',
 
       description:
         'Hair Growth Oil + Scalp Detox Ritual',
@@ -31,7 +31,7 @@ export default function Bundles() {
       image:
         '/images/bundles/bundle-complete-ritual-main.webp',
 
-      price: '₹1599',
+      price: '₹3499',
 
       description:
         'Complete Ayurvedic luxury haircare routine',
@@ -45,7 +45,7 @@ export default function Bundles() {
       image:
         '/images/bundles/bundle-scalp-care-main.webp',
 
-      price: '₹1799',
+      price: '₹2499',
 
       description:
         'Deep scalp nourishment & detox',
@@ -53,11 +53,13 @@ export default function Bundles() {
   ];
 
   return (
-    <section className="py-24 px-6 bg-[#10211a]">
+    <section
+      id="bundles"
+      className="py-24 px-6 bg-[#10211a]"
+    >
 
       <div className="max-w-7xl mx-auto">
 
-        {/* Heading */}
         <div className="text-center mb-20">
 
           <p className="uppercase tracking-[0.3em] text-[#d4af37] mb-4">
@@ -70,7 +72,6 @@ export default function Bundles() {
 
         </div>
 
-        {/* Grid */}
         <div className="grid md:grid-cols-3 gap-10">
 
           {bundles.map((bundle) => (
@@ -80,14 +81,14 @@ export default function Bundles() {
               className="bg-[#13271f] rounded-[2rem] overflow-hidden border border-[#d4af3720]"
             >
 
-              {/* Clickable Image */}
+              {/* Image */}
               <Link
                 href={`/bundle/${bundle.id}`}
               >
 
                 <img
                   src={bundle.image}
-                  className="w-full h-[420px] object-cover hover:scale-105 transition duration-700"
+                  className="w-full h-[420px] object-cover hover:scale-105 transition duration-700 cursor-pointer"
                 />
 
               </Link>
@@ -107,16 +108,18 @@ export default function Bundles() {
                   {bundle.price}
                 </p>
 
-                {/* Buttons */}
                 <div className="flex flex-col gap-4">
 
                   {/* Add To Cart */}
                   <button
                     onClick={() =>
                       addToCart({
-                        name: bundle.name,
-                        image: bundle.image,
-                        price: bundle.price,
+                        name:
+                          bundle.name,
+                        image:
+                          bundle.image,
+                        price:
+                          bundle.price,
                       })
                     }
                     className="bg-[#d4af37] text-black py-4 rounded-full font-semibold hover:scale-105 transition"
@@ -129,7 +132,7 @@ export default function Bundles() {
                   {/* View Bundle */}
                   <Link
                     href={`/bundle/${bundle.id}`}
-                    className="border border-[#d4af3720] text-center py-4 rounded-full hover:border-[#d4af37] transition"
+                    className="block border border-[#d4af3720] text-center py-4 rounded-full hover:border-[#d4af37] transition"
                   >
 
                     View Bundle
