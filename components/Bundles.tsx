@@ -3,15 +3,22 @@ export default function Bundles() {
     {
       title: "Hair Growth Combo",
       image: "/images/bundle1.png",
-      price: "₹1999",
-      oldPrice: "₹2599",
+      price: "₹999",
+      oldPrice: "₹1999",
     },
     {
       title: "Luxury Shine Ritual",
       image: "/images/bundle2.png",
-      price: "₹2999",
+      price: "₹1599",
+      oldPrice: "₹2999",
+    },
+    {
+      title: "Ultimate Hair Combo",
+      image: "/images/bundle3.png",
+      price: "₹1999",
       oldPrice: "₹3999",
     },
+    
   ];
 
   return (
